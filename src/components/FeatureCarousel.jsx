@@ -4,6 +4,10 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
+import imgDefault from "../assets/Property 1=Default.png";
+import imgVariant2 from "../assets/Property 1=Variant2.png";
+import imgVariant3 from "../assets/Property 1=Variant3.png";
+import imgVariant4 from "../assets/Property 1=Variant4.png";
 
 const features = [
   {
@@ -16,13 +20,13 @@ const features = [
       "Customer location heatmap",
       "Weekly & monthly growth trends",
     ],
-    image: require("./assets/Property 1=Default.png").default,
+    image: imgDefault,
   },
   {
     title: "Inventory Management",
     description: "Track, manage, and update product inventories efficiently.",
     points: ["Low stock alerts", "Bulk product updates", "SKU-level tracking"],
-    image: require("./assets/Property 1=Variant2.png").default,
+    image: imgVariant2,
   },
   {
     title: "Customer Insights",
@@ -32,7 +36,7 @@ const features = [
       "Demographic breakdown",
       "Retention tracking",
     ],
-    image: require("./assets/Property 1=Variant3.png").default,
+    image: imgVariant3,
   },
   {
     title: "Sales Reports",
@@ -42,7 +46,7 @@ const features = [
       "Export as PDF/Excel",
       "Customizable filters",
     ],
-    image: require("./assets/Property 1=Variant4.png").default,
+    image: imgVariant4,
   },
 ];
 

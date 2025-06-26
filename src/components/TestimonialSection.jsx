@@ -4,7 +4,7 @@ import { Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import { Star } from "lucide-react";
-import img from "./assets/img.png";
+import img from "../assets/img.png";
 
 const testimonials = [
   {
